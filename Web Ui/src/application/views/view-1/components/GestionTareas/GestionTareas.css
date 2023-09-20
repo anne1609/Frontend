@@ -1,0 +1,44 @@
+.GestionTareas{
+    
+
+
+}
+
+.GestionTareasContainer {
+    display: flex;
+  }
+.Tareas {
+    flex: 1; 
+    margin-right: 20px;/* El formulario ocupará 50% del espacio */
+  }
+.GestionTareasForm {
+    flex: 1; /* El formulario ocupará 50% del espacio */
+  }
+.Tareas > div > table{
+    width: 100%;
+    border: 1px solid #000000;
+    border-spacing: 0;
+    text-align: center;
+}
+.Tareas > div {
+    width: 600px;
+    margin: 20px 20px 20px 60px;
+}
+.Tareas thead th {
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+}
+/* Establece el ancho para la segunda y tercera columna */
+.Tareas tbody td:nth-child(2),
+.Tareas tbody td:nth-child(3),
+.Tareas tbody td:nth-child(4),
+.Tareas tbody td:nth-child(5) {
+  width: 50px; /* Cambia el valor según tus necesidades */
+}
+
+/* Estilo para los <td> cuando el cursor está sobre ellos */
+td:hover {
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el cursor */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar interactividad */
+  }
+  /* Resto de tu CSS... */

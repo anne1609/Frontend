@@ -1,0 +1,5 @@
+/* Estilos para el botón Guardar cambios */
+.GuardarCambiosButton {
+    max-width: 150px; /* Ancho máximo del botón */
+    padding: 8px 16px; /* Ajusta el padding para controlar el tamaño */
+  }
